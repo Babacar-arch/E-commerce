@@ -1,0 +1,217 @@
+header
+{
+	margin-top: 3.5%;
+    background-image: url('../images/ecommerce3.jpg') ;
+    background-size: cover;
+    padding :12%;
+    height:200%;
+	color : white;
+	box-shadow: 50 50 50px white;
+    animation: fade 20s infinite;
+}
+
+/* Pour le diapo*/
+@keyframes fade 
+{
+	20%{background-image: url("../images/ecommerce10.jpg") ;}
+    40%{background-image: url("../images/ecommerce11.png") ;}
+    60%{background-image: url("../images/ecommerce9.jpg"); }
+	80%{background-image: url("../images/ecommerce3.jpg") ;}
+	100%{background-image: url("../images/ecommerce8.jpg") ;}
+}
+
+
+		
+h1
+{
+    color:blue;		   	
+
+}
+@keyframes flash
+		   {
+			  0%
+			  {
+				color:#484848;
+				text-shadow: none;
+			  }
+			  
+			  90%
+			  {
+				color:#484848;
+				text-shadow: none;
+			  }
+			  10%
+			  {
+				color: #fff900;
+				text-shadow : 0 0 7px #fff900, 0 0 50px #ff6c00;
+
+			  }
+
+		   }
+
+		
+
+
+
+
+		   
+/* Pour le logo*/
+.logo
+{
+	float: left;
+	width : 4%;
+	border : 50%;
+	margin: 0.4%;
+	
+	
+}	
+/* Elements menu accueil, contact......*/	
+.elements-menu
+{
+	
+	font-size:120% ;
+	font-weight: bold; 
+	
+
+	
+}
+
+/*boutons*/
+.btn-connect
+{
+	left:10%;
+	top: 6px;
+}
+.btn-inscription
+{
+	left:22%;
+	top:6px;
+}
+
+
+
+
+
+/*Pied de page*/
+#footer{
+	background:rgb(85, 84, 84);
+	padding: 0 0 0px 0;
+	color: #3eee;
+	font-size: 14px;
+}
+#footer .footer-top{
+	background:rgb(43, 42, 42);
+	padding: 0px 0 0px 0;
+}
+#footer .footer-top .footer-info{
+	margin-bottom: 20px;
+}
+#footer .footer-top .footer-info h3{
+   font-size: 30px;
+   margin: 0 0 20px 0;
+   padding: 10px 0 2px 0;
+   line-height: 1;
+   font-family: "Monstreet" , sans-serif;
+   padding: 10px 0 2px 0;
+   color: #fff;
+   font-weight: 400;
+   letter-spacing: 3px;
+   text-transform: uppercase;  
+}
+#footer .footer-top .footer-info p{
+	font-size: 13px;
+	line-height: 24px;
+	margin-top:2px;
+	margin-bottom: 0;
+	font-family: "Monstreet" sans-serif;
+	color:#eef5ff;
+}
+#footer .footer-top .social-links a{
+	font-size: 18px;
+	display: inline-block;
+	background: #007bff;
+	color:white;
+	line-height: 1;
+	padding: 8px 0;
+	margin-right: 4px;
+	border-radius: 50%;
+	text-align: center;
+	width: 36px;
+	height: 36px;
+	transition: 0.2s;
+}
+#footer .footer-top .social-links a:hove{
+	background: #0067d5;
+	color:white;
+} 
+#footer .footer-top h4{
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	position:relative;
+	padding-bottom: 10px;
+}
+#footer .footer-top .footer-links{
+	margin-bottom: 30px;
+}
+#footer .footer-top .footer-links ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#footer .footer-top .footer-links ul li{
+	padding: 8px 0;
+}
+#footer .footer-top .footer-links ul li:first-child{
+	padding-top: 0;
+}
+#footer .footer-top .footer-links ul a{
+	color: #ecf5ff;
+}
+#footer .footer-top .footer-links ul a:hover{
+	color: #74b5fc;
+}
+#footer .footer-top .footer-contact{
+	margin-bottom: 30px;
+}
+ #footer .footer-top .footer-contact p{
+	line-height: 26px;
+}
+#footer .footer-top .footer-newsletter{
+	margin-bottom: 38px;
+}
+ #footer .footer-top .footer-newsletter input[type="email"]{
+   border: 0;
+   padding: 6px 8px;
+   width: 65%; 
+}
+ #footer .footer-top .footer-newsletter input[type="submit"]{
+   background: #007bff;
+   border: 0;
+   padding: 6px 0;
+   width: 35%; 
+   text-align: center;
+   color: white;
+   transition: 0.3s;
+   cursor: pointer;
+}
+ #footer .footer-top .footer-newsletter input[type="submit"]:hover{
+   background: #0062cc;
+ }
+ #footer .copyright{
+	 text-align: center;
+	 padding-top: 30px;
+ }
+ #footer .credits{
+	text-align: center;
+	font-size: 13px;
+	color: #f1f7ff;
+ }
+ #footer .credits a{
+	 color: #bfddfe;
+ }
+ #footer .credits a:hover{
+	 color: #f1f7ff;
+ }
+

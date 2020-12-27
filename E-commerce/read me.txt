@@ -1,0 +1,8 @@
+remarques
+1°)les redirections (a eviter) en utilisant ajax. Les redrections donnent l'impression de lenteur
+2°)Eviter les nombreuses connexions dans les différentes page de php,en créant une page connexionBaseDeDonnees.php (qui ouvre la connexion tout simplement et on l'inclu dans les page au besions)
+3°)fusionner les pages de traitement (traitementConnexion, traitementInscription ....) en une seule (traitement.php)
+4°)Utiliser du js pour minimiser les traitement serveur (faire des controle de saisie avec js à la place de if(isset($_Post["mdp"])) en php par exemple)
+5°)lors de l'inscription, ajouter un champs de confirmation du mot de pass
+6°)Masquer le mdp et la confirmation
+7°)traitementConnexion.php ne prevoit pas si les donnees sont fausses
